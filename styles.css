@@ -1,0 +1,63 @@
+.nav-container{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px;
+}
+.logo-name{
+    color: #006747;
+    font-weight: bold;
+}
+.b-logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.b-logo .logo-1{
+  height: 36px;
+   width: 36px;
+   object-fit: contain;
+  border-radius: 8px;
+  background-color: white;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.heart-btn,.coin-btn{
+    background-color: rgba(65, 255, 107, 0.1);
+    padding: 12px;
+    border-radius: 50px;
+    gap: 10px;
+    width: 100px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+.icon1 ,.icon2,.copy-btn{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+   vertical-align: middle; 
+}
+.copy-btn{
+    background-color: #00A63E;
+    padding: auto;
+    border-radius: 50px;
+    gap: 10px;
+    width: 100px;
+    height: 52px;
+    align-items: center;
+     justify-content: center;
+    gap: 6px;
+    font-weight: bold;
+    color:white;
+    border: none;
+}
