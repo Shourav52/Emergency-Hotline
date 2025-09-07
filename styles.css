@@ -211,3 +211,27 @@
     cursor: pointer;
 
 }
+
+@media (max-width: 900px){
+  .main-section{
+    grid-template-columns: 1fr;
+  }
+  .main-container{
+    display: grid;
+   
+  }
+  .hero-section {
+    padding: 10px;
+  }
+  
+  .hero-title{
+    font-size: 20px;
+  }
+  .hero-description{
+    font-size: 15px;
+  }
+  .heart-btn,.coin-btn,.copy-btn{
+    padding: 5px 10px;
+    width: 65px;
+  }
+}
