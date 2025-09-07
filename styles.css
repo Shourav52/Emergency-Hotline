@@ -77,3 +77,120 @@
   object-fit: contain;
   margin: 0;
 }
+.hind-madurai-regular,.hero-title {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+}
+.hind-madurai-semibold,.hero-description {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+.img-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.main-bg{
+  background-color: #DFEFFF;
+}
+
+.card-img{
+  background-color: #FFE3E2;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.cards-section{
+  max-width: 320px;
+  
+  padding: 22px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.6);
+}
+.main-section{
+  padding:  20px;
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1370px;
+}
+.card-title{
+ font-family: "Hind Madurai", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+.card-description{
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 12px;
+  margin: 0;
+}
+.call-nbr{
+  margin: 5px;
+  font-size: 22px;
+}
+.category{
+  padding: 5px;
+  background-color: #F2F2F2;
+  color: gray;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 10px;
+}
+.copy-btn2{
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.call-btn{
+  width: 130px;
+  height: 40px;
+  background-color: #00A63E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.history-list li {
+  padding: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+}
+
